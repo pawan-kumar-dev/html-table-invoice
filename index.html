@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoice Table</title>
+    <style>
+      body {
+        background-color: #f2f6ff;
+      }
+      table {
+        max-width: 600px;
+        width: 100%;
+        text-align: left;
+        margin: 0 auto;
+        background-color: white;
+      }
+      th {
+        background-color: lightblue;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid #aaa;
+        border-collapse: collapse;
+        padding: 8px;
+        line-height: 1.2;
+      }
+      span {
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Invoice
+      </caption>
+      <tr>
+        <th colspan="3">Invoice #12344</th>
+        <th>16th April 2021</th>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <span>Pay To :</span><br />
+          Pawan Kumar<br />
+          Mumbai
+        </td>
+        <td colspan="2">
+          <span> Customer: </span><br />
+          Pavan <br />
+          Mumbai, Maharashtra
+        </td>
+      </tr>
+      <tr>
+        <th>Name/Description</th>
+        <th>Qty.</th>
+        <th>MRP</th>
+        <th>Amount</th>
+      </tr>
+      <tr>
+        <td>Biryani</td>
+        <td>3</td>
+        <td>400</td>
+        <td>1200</td>
+      </tr>
+      <tr>
+        <td>Ice cream</td>
+        <td>3</td>
+        <td>100</td>
+        <td>300</td>
+      </tr>
+      <tr>
+        <th colspan="3">
+          <span>SubTotal: </span>
+        </th>
+        <td>1500</td>
+      </tr>
+      <tr>
+        <th colspan="2">Tax:</th>
+        <td>10%</td>
+        <td>150</td>
+      </tr>
+      <tr>
+        <th colspan="3">Grand Total :</th>
+        <td>1650</td>
+      </tr>
+    </table>
+  </body>
+</html>
